@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="stylepage1.css">
+    <script src="Javascript.js" defer></script>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="flex-container">
+        <a href="#home" class="logo-area">
+            <img src="Copcakes logo/COPCAKES LOGO.png" alt="CopCakes Logo" class="logo-img">
+            <span class="brand-name">CopCakes</span>
+        </a>
+        
+        <ul class="menu-items-wrapper">
+            <li><a href="#home">Home</a></li>
+            <li><a href="OrderNow.html">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#feedback">Reviews</a></li>
+            <li><a href="#Contact" class="nav-cta">OrderNow</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section id="home" class="hero-banner">
+    <div class="hero-content">
+        <h1 class="hero-title">Justice in Every Bite</h1>
+        <p class="hero-subtitle">Handcrafted cakes and pastries baked with discipline, heart, and the finest ingredients.</p>
+        <div class="hero-btns">
+            <a href="#" class="login-btn" onclick="openLoginModal()">log-in</a>
+        </div>
+    </div>
+</section>
+
+<div id="loginModal" class="login-modal">
+  <div class="login-box">
+    <span class="close-login" onclick="closeLoginModal()"> &times; </span>
+    <h2>WELCOME</h2>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button class="login-submit"> LOG IN </button>
+    <p class="create-account"> Don't have an account? <a href="#">Create Account</a></p>
+  </div>
+</div>
+
+<section id="about" class="about-section">
+  <div class="about-container">
+    <img class="about-image" src="Picture baking/Baking.jpg" alt="About Image">
+    <div>
+      <h2 class="about-title">ABOUT COPCAKES</h2>
+      <p class="about-text">
+        <strong>COPcakes by Twinkle Twinx</strong> is a home-based cakes, pastries, and bread shop 
+        owned by a police baker who blends discipline with creativity in every bake. 
+        We offer freshly baked goods made with quality ingredients and heartfelt dedication, 
+        including breads, pastries, and made-to-order customized cakes for every occasion. 
+        Whether for celebrations or simple cravings, each creation is crafted to bring joy 
+        and sweetness to your table.<br><span class="about-slogan">You'll surely get</span> <span class="about-slogan1"><strong>"Justice in Every Bite"</strong></span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="feedback" class="feedback-section">
+  <h2 class="feedback-title">FEEDBACK</h2>
+  <div class="feedback-container">
+    <div class="feedback-card">
+      <h3>"A terrific piece of praise"</h3>
+      <div class="feedback-user">
+        <img src="Feedback Pics/John Carl B. Matienzo.jpg" alt="User">
+        <div>
+          <strong>John Carl B. Matienzo</strong>
+          <p>Very satisfied customer</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback-card">
+      <h3>"A fantastic bit of feedback"</h3>
+      <div class="feedback-user">
+        <img src="Feedback Pics/John Byron B. Ontog.jpg" alt="User">
+        <div>
+          <strong>John Byron B. Ontog</strong>
+          <p>Repeat customer</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback-card">
+      <h3>"A genuinely glowing review"</h3>
+      <div class="feedback-user">
+        <img src="Feedback Pics/John Brenan B. Ontog.jpg" alt="User">
+        <div>
+          <strong>John Brenan B. Ontog</strong>
+          <p>Happy client</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Contact" class="cta-section">
+  <h1 class="cta-title"> Want to Order a Custom Cake? </h1>
+  <p>
+    We can create a custom cake just for you! Whether it's for a birthday, wedding, or any special occasion, 
+    <br> we will work with you to design the perfect cake that matches your vision and taste preferences. 
+    Contact us today to start planning your custom cake masterpiece!
+  </p>
+  <button class="cta-button"><a href="OrderNow.html"> Order Now! </a></button>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-column">
+        <h3>COPcakes & Twinkle Twinx</h3>
+        <p>We provide quality cakes and sweet treats for all occasions.</p>
+        <div class="social-icons">
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-linkedin-in"></i></span>
+        </div>
+    </div>
+
+    <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+            <li>Cake Delivery</li>
+            <li>Custom Cake Designs</li>
+        </ul>
+    </div>
+
+    <div class="footer-column">
+        <h3>Company</h3>
+        <ul class="menu-bottom">
+            <li class="menu-item-botton"><a href="#home">Home</a></li>
+            <li class="menu-item-botton"><a href="#about">About</a></li>
+            <li class="menu-item-botton"><a href="#feedback">Feedback</a></li>
+            <li class="menu-item-botton"><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-column">
+        <h3>Contact</h3>
+        <ul class="contact-info">
+            <li><i class="fa-brands fa-facebook"></i> San Jacinto, Masbate</li>
+            <li class="link-email"><i class="fa-solid fa-envelope"></i> <a href="https://mail.google.com/mail/u/0/#search/ulyfe_rejuso%40yahoo.com">ulyfe_rejuso@yahoo.com</a></li>
+            <li><i class="fa-solid fa-phone"></i> 09209039599</li>
+            <li><i class="fa-solid fa-calendar"></i> Mon-Fri: 9am - 6pm</li>
+            <li><i class="fa-solid fa-message"></i> Message us anytime</li>
+        </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 COPcakes & Twinkle Twinx. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
